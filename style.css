@@ -117,9 +117,17 @@ h3{
     font-size: 40px;
 }
 .contact button{
-    width: 100px;
+    width: 150px;
     height: 40px;
     border: 1px solid white;
     color:white;
     font-family: 'Courier New', Courier, monospace;
+}
+.footer{
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: antiquewhite;
 }
