@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap:20px;
+    list-style: none;
+}
+.headerlogo{
+    height:70px;
+    width: auto;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
