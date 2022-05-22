@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 .header{
     display: flex;
@@ -28,6 +29,7 @@ a{
 .content{
     display: flex;
     flex: 1;
+    flex-direction: column;
 }
 .top{
     display: flex;
@@ -48,4 +50,51 @@ a{
 button{
     background-color: #3882f6;
     border-radius: 8px;
+}
+.info img{
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.facts{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    
+}
+.info{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid gray;
+    padding:10px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.info p{
+    text-align: center;
+}
+.second{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 30px 100px;
+}
+.second h1{
+    text-align: center;
+}
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    padding: 70px;
 }
