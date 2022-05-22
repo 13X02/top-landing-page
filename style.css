@@ -96,5 +96,30 @@ button{
     font-size: 36px;
     font-weight: lighter;
     color: #1f2937;
-    padding: 70px;
+    padding: 70px 200px;
+}
+.bottom{
+    padding: 50px 150px;
+}
+.contact{
+    background-color: #3882f6;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
+}
+.text{
+    color: white;
+    font-size: 30px;
+}
+h3{
+    font-size: 40px;
+}
+.contact button{
+    width: 100px;
+    height: 40px;
+    border: 1px solid white;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
 }
